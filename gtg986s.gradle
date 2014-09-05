@@ -3,7 +3,8 @@ version = 1.0
 
 jar {
 	manifest {
-		attributes("Implementation-Title": "Thang implementation", "Implementation-Version": version)
+		attributes 'Implementation-Title': 'Thang implementation', 'Implementation-Version': version, 
+		'Main-Class': 'edu.gatech.oad.antlab.pkg1.AntLabMain', 'Class-Path': 'lib/resources.jar'
 	}
 
 }
